@@ -23,5 +23,6 @@ public class characterMovement : MonoBehaviour
         Vector3 movementDirection = new Vector3(horizontal, jump, vertical);
         movementDirection *= speed;
         characterController.Move(movementDirection * Time.deltaTime);
+        a
     }
 }
