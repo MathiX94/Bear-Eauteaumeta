@@ -1217,6 +1217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29717c47013c3c2478e762d9e105b54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1271684466}
+  clip: {fileID: 8300000, guid: 60df5825924bbd240a5b2c6f407d1a09, type: 3}
 --- !u!1001 &1979352518
 PrefabInstance:
   m_ObjectHideFlags: 0
