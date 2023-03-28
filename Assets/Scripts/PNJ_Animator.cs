@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PNJ_Animator : MonoBehaviour
 {
+    Animator m_Animator;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        m_Animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -15,8 +17,9 @@ public class PNJ_Animator : MonoBehaviour
     {
         
     }
-    public void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Player"))
+            m_Animator.SetTrigger("IsNearPNJ");
     }
 }
