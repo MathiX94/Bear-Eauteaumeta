@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 1271684467}
   - component: {fileID: 1271684466}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Audio Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1389,13 +1389,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29717c47013c3c2478e762d9e105b54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1271684466}
-  clip: {fileID: 8300000, guid: 60df5825924bbd240a5b2c6f407d1a09, type: 3}
---- !u!4 &1940185600 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1307088880938df4a926f9b7e421df73, type: 3}
-  m_PrefabInstance: {fileID: 1940185595}
+--- !u!114 &1940185600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940185596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d35a13b24add8d40bec340a5ca36921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPlayer: {fileID: 1271684466}
+  clip: {fileID: 8300000, guid: 60df5825924bbd240a5b2c6f407d1a09, type: 3}
+  repeat: 0
 --- !u!1001 &1979352518
 PrefabInstance:
   m_ObjectHideFlags: 0
