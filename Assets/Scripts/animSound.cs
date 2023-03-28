@@ -8,7 +8,7 @@ public class animSound : MonoBehaviour
     public AudioClip clip;
     public bool repeat;
 
-    private bool triggAnim = false;
+    private bool played = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,17 +19,16 @@ public class animSound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (triggAnim)
-        {
-            audioPlayer.Play();
-            //if (repeat)
-              //  triggAnim= false;
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
-            triggAnim = true;
+        if (other.gameObject.CompareTag("Player") && played == false)
+        {
+            audioPlayer.Play();
+            played = true;
+            if (repeat)
+                played = false;
+        }
     }
 }
