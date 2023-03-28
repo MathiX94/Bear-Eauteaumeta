@@ -23,7 +23,6 @@ public class PNJ_Animator : MonoBehaviour
         if (triggAnim)
         {
             m_Animator.SetTrigger("IsNearPNJ");
-            //new WaitForSeconds(2);
             player.Play();
 
         }
