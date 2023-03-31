@@ -7,149 +7,139 @@ AvatarMask:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BlackAlien_Mask
-  m_Mask: 00000000000000000100000000000000000000000100000001000000010000000000000000000000000000000000000000000000
+  m_Mask: 00000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_Elements:
   - m_Path: 
     m_Weight: 1
-  - m_Path: Geometry
+  - m_Path: Ch44
     m_Weight: 1
-  - m_Path: Geometry/Armature_Mesh
-    m_Weight: 1
-  - m_Path: Skeleton
-    m_Weight: 1
-  - m_Path: Skeleton/Hips
+  - m_Path: mixamorig:Hips
     m_Weight: 0
-  - m_Path: Skeleton/Hips/Left_UpperLeg
+  - m_Path: mixamorig:Hips/mixamorig:LeftUpLeg
     m_Weight: 0
-  - m_Path: Skeleton/Hips/Left_UpperLeg/Left_LowerLeg
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Left_UpperLeg/Left_LowerLeg/Left_Foot
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Left_UpperLeg/Left_LowerLeg/Left_Foot/Left_Toes
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Left_UpperLeg/Left_LowerLeg/Left_Foot/Left_Toes/Left_ToesEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Right_UpperLeg
+  - m_Path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
     m_Weight: 0
-  - m_Path: Skeleton/Hips/Right_UpperLeg/Right_LowerLeg
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Right_UpperLeg/Right_LowerLeg/Right_Foot
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Right_UpperLeg/Right_LowerLeg/Right_Foot/Right_Toes
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Right_UpperLeg/Right_LowerLeg/Right_Foot/Right_Toes/Right_ToesEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest
+  - m_Path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
     m_Weight: 0
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest
+  - m_Path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
     m_Weight: 0
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder
+  - m_Path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase/mixamorig:LeftToe_End
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:RightUpLeg
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase/mixamorig:RightToe_End
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2/mixamorig:LeftHandIndex3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandIndex1/mixamorig:LeftHandIndex2/mixamorig:LeftHandIndex3/mixamorig:LeftHandIndex4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2/mixamorig:LeftHandMiddle3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandMiddle1/mixamorig:LeftHandMiddle2/mixamorig:LeftHandMiddle3/mixamorig:LeftHandMiddle4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2/mixamorig:LeftHandPinky3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandPinky1/mixamorig:LeftHandPinky2/mixamorig:LeftHandPinky3/mixamorig:LeftHandPinky4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2/mixamorig:LeftHandRing3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandRing1/mixamorig:LeftHandRing2/mixamorig:LeftHandRing3/mixamorig:LeftHandRing4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2/mixamorig:LeftHandThumb3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/mixamorig:LeftHandThumb1/mixamorig:LeftHandThumb2/mixamorig:LeftHandThumb3/mixamorig:LeftHandThumb4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
     m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
     m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/mixamorig:HeadTop_End
     m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_IndexProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_IndexProximal/Left_IndexIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_IndexProximal/Left_IndexIntermediate/Left_IndexDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_IndexProximal/Left_IndexIntermediate/Left_IndexDistal/Left_IndexDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_MiddleProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_MiddleProximal/Left_MiddleIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_MiddleProximal/Left_MiddleIntermediate/Left_MiddleDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_MiddleProximal/Left_MiddleIntermediate/Left_MiddleDistal/Left_MiddleDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_PinkyProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_PinkyProximal/Left_PinkyIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_PinkyProximal/Left_PinkyIntermediate/Left_PinkyDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_PinkyProximal/Left_PinkyIntermediate/Left_PinkyDistal/Left_PinkyDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_RingProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_RingProximal/Left_RingIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_RingProximal/Left_RingIntermediate/Left_RingDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_RingProximal/Left_RingIntermediate/Left_RingDistal/Left_RingDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_ThumbProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_ThumbProximal/Left_ThumbIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_ThumbProximal/Left_ThumbIntermediate/Left_ThumbDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/Left_ThumbProximal/Left_ThumbIntermediate/Left_ThumbDistal/Left_ThumbDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Neck
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Neck/Head
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Neck/Head/Jaw
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Neck/Head/Left_Eye
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Neck/Head/Right_Eye
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Neck/Neck_Twist_A
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_IndexProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_IndexProximal/Right_IndexIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_IndexProximal/Right_IndexIntermediate/Right_IndexDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_IndexProximal/Right_IndexIntermediate/Right_IndexDistal/Right_IndexDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_MiddleProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_MiddleProximal/Right_MiddleIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_MiddleProximal/Right_MiddleIntermediate/Right_MiddleDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_MiddleProximal/Right_MiddleIntermediate/Right_MiddleDistal/Right_MiddleDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_PinkyProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_PinkyProximal/Right_PinkyIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_PinkyProximal/Right_PinkyIntermediate/Right_PinkyDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_PinkyProximal/Right_PinkyIntermediate/Right_PinkyDistal/Right_PinkyDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_RingProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_RingProximal/Right_RingIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_RingProximal/Right_RingIntermediate/Right_RingDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_RingProximal/Right_RingIntermediate/Right_RingDistal/Right_RingDistalEnd
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_ThumbProximal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_ThumbProximal/Right_ThumbIntermediate
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_ThumbProximal/Right_ThumbIntermediate/Right_ThumbDistal
-    m_Weight: 1
-  - m_Path: Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/Right_ThumbProximal/Right_ThumbIntermediate/Right_ThumbDistal/Right_ThumbDistalEnd
-    m_Weight: 1
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2/mixamorig:RightHandIndex3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandIndex1/mixamorig:RightHandIndex2/mixamorig:RightHandIndex3/mixamorig:RightHandIndex4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2/mixamorig:RightHandMiddle3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandMiddle1/mixamorig:RightHandMiddle2/mixamorig:RightHandMiddle3/mixamorig:RightHandMiddle4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2/mixamorig:RightHandPinky3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandPinky1/mixamorig:RightHandPinky2/mixamorig:RightHandPinky3/mixamorig:RightHandPinky4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2/mixamorig:RightHandRing3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandRing1/mixamorig:RightHandRing2/mixamorig:RightHandRing3/mixamorig:RightHandRing4
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2/mixamorig:RightHandThumb3
+    m_Weight: 0
+  - m_Path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/mixamorig:RightHandThumb1/mixamorig:RightHandThumb2/mixamorig:RightHandThumb3/mixamorig:RightHandThumb4
+    m_Weight: 0
